@@ -1,0 +1,122 @@
+.timeline {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 302px;
+  height: 27px;
+  padding-top: 0px;
+  padding-left: 0px;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  border: 1px none #000;
+}
+
+
+._empty {
+  width: 6px;
+  height: 10px;
+  margin-top: 1px;
+  margin-left: 1px;
+  padding-right: 0px;
+  padding-left: 0px;
+  border: 1px solid #eee;
+  border-radius: 2px;
+  background-color: #eee;
+}
+._green {
+  width: 6px;
+  height: 10px;
+  margin-top: 1px;
+  margin-left: 1px;
+  padding-right: 0px;
+  padding-left: 0px;
+  border: 1px solid #86c35d;
+  border-radius: 2px;
+  background-color: #86c35d;
+}
+
+._orange {
+  width: 6px;
+  height: 15px;
+  margin-left: 1px;
+  border: 1px solid #c9a548;
+  border-radius: 3px;
+  background-color: #c9a548;
+}
+
+._red {
+  width: 6px;
+  height: 15px;
+  margin-left: 1px;
+  border: 1px solid #dc2620;
+  border-radius: 3px;
+  background-color: #dc2620;
+}
+
+._current_day {
+  width: 6px;
+  height: 10px;
+  margin-top: 1px;
+  margin-left: 1px;
+  padding-right: 0px;
+  padding-left: 0px;
+  border: 1px solid #86c35d;
+  border-radius: 2px;
+  background-color: #eee;
+}
+
+.section {
+  display: block;
+  margin-top: 28px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.outage {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+
+.outage-desc {
+  width: 300px;
+  margin-top: 32px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  padding-top: 12px;
+  padding-bottom: 17px;
+  padding-left: 12px;
+  float: left;
+  border: 1px solid #bebebe;
+  border-radius: 6px;
+  background-color: #eee;
+  box-shadow: 1px 1px 3px 0 #bfc4d5;
+  color: #504f4f;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.outage-block {
+  display: block;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+}
+
+html.w-mod-js *[data-ix="outage-desc"] {
+  display: none;
+}
