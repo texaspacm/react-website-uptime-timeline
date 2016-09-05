@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import ReactTooltip from 'react-tooltip'
 import newId from './utils/newid.js';
-import './App.css';
 import './css/flexbox-0e6e75.webflow.css';
 import './css/normalize.css';
 import './css/webflow.css';
@@ -36,7 +35,6 @@ class App extends Component {
       <div className="section">
         <div className="container w-container">
           <div className="timeline">
-      
              <TimelineTick color="_empty"/>
              <TimelineTick color="_empty"/>
              <TimelineTick color="_empty"/>
@@ -46,18 +44,30 @@ class App extends Component {
              <TimelineTick color="_green"/>
              <TimelineTick color="_green"/>
              <TimelineTick color="_green"/>
-             <TimelineTick color="_green" message="philip was here"/>
+             <TimelineTick color="_orange" message="15 Minute Outage"/>
              <TimelineTick color="_green"/>
              <TimelineTick color="_green"/>
              <TimelineTick color="_green"/>
              <TimelineTick color="_green"/>
              <TimelineTick color="_green"/>
-             <TimelineTick color="_red" message="hello" />
+             <TimelineTick color="_red" message="90 Minute Outage" />
+             <TimelineTick color="_green"/>
+             <TimelineTick color="_green"/>
+             <TimelineTick color="_green"/>
+             <TimelineTick color="_green"/>
+             <TimelineTick color="_green"/>
+             <TimelineTick color="_green"/>
+             <TimelineTick color="_orange" message="5 Minute Outage"/>
+             <TimelineTick color="_green"/>
+             <TimelineTick color="_green"/>
+             <TimelineTick color="_green"/>
+             <TimelineTick color="_green"/>
+             <TimelineTick color="_green"/>
+             <TimelineTick color="_green"/>
              <TimelineTick color="_current_day"/>
-     </div>
-   </div>
- </div>
-
+           </div>
+         </div>
+       </div>
     );
   }
 }
